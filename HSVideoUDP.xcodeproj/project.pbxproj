@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E6A4FD91FECB16F00285143 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6A4FD81FECB16F00285143 /* AppDelegate.m */; };
+		2E6A4FDC1FECB16F00285143 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6A4FDB1FECB16F00285143 /* ViewController.m */; };
+		2E6A4FDF1FECB16F00285143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6A4FDD1FECB16F00285143 /* Main.storyboard */; };
+		2E6A4FE11FECB16F00285143 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E6A4FE01FECB16F00285143 /* Assets.xcassets */; };
+		2E6A4FE41FECB16F00285143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6A4FE21FECB16F00285143 /* LaunchScreen.storyboard */; };
+		2E6A4FE71FECB16F00285143 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6A4FE61FECB16F00285143 /* main.m */; };
+		2E6A4FF11FECB16F00285143 /* HSVideoUDPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6A4FF01FECB16F00285143 /* HSVideoUDPTests.m */; };
+		2E6A4FFC1FECB16F00285143 /* HSVideoUDPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6A4FFB1FECB16F00285143 /* HSVideoUDPUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E6A4FED1FECB16F00285143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E6A4FCC1FECB16F00285143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E6A4FD31FECB16F00285143;
+			remoteInfo = HSVideoUDP;
+		};
+		2E6A4FF81FECB16F00285143 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E6A4FCC1FECB16F00285143 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E6A4FD31FECB16F00285143;
+			remoteInfo = HSVideoUDP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E6A4FD41FECB16F00285143 /* HSVideoUDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSVideoUDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6A4FD71FECB16F00285143 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E6A4FD81FECB16F00285143 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E6A4FDA1FECB16F00285143 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E6A4FDB1FECB16F00285143 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E6A4FDE1FECB16F00285143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E6A4FE01FECB16F00285143 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E6A4FE31FECB16F00285143 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E6A4FE51FECB16F00285143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E6A4FE61FECB16F00285143 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E6A4FEC1FECB16F00285143 /* HSVideoUDPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSVideoUDPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6A4FF01FECB16F00285143 /* HSVideoUDPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSVideoUDPTests.m; sourceTree = "<group>"; };
+		2E6A4FF21FECB16F00285143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E6A4FF71FECB16F00285143 /* HSVideoUDPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSVideoUDPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6A4FFB1FECB16F00285143 /* HSVideoUDPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSVideoUDPUITests.m; sourceTree = "<group>"; };
+		2E6A4FFD1FECB16F00285143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E6A4FD11FECB16F00285143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E6A4FE91FECB16F00285143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E6A4FF41FECB16F00285143 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E6A4FCB1FECB16F00285143 = {
+			isa = PBXGroup;
+			children = (
+				2E6A4FD61FECB16F00285143 /* HSVideoUDP */,
+				2E6A4FEF1FECB16F00285143 /* HSVideoUDPTests */,
+				2E6A4FFA1FECB16F00285143 /* HSVideoUDPUITests */,
+				2E6A4FD51FECB16F00285143 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E6A4FD51FECB16F00285143 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E6A4FD41FECB16F00285143 /* HSVideoUDP.app */,
+				2E6A4FEC1FECB16F00285143 /* HSVideoUDPTests.xctest */,
+				2E6A4FF71FECB16F00285143 /* HSVideoUDPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E6A4FD61FECB16F00285143 /* HSVideoUDP */ = {
+			isa = PBXGroup;
+			children = (
+				2E6A4FD71FECB16F00285143 /* AppDelegate.h */,
+				2E6A4FD81FECB16F00285143 /* AppDelegate.m */,
+				2E6A4FDA1FECB16F00285143 /* ViewController.h */,
+				2E6A4FDB1FECB16F00285143 /* ViewController.m */,
+				2E6A4FDD1FECB16F00285143 /* Main.storyboard */,
+				2E6A4FE01FECB16F00285143 /* Assets.xcassets */,
+				2E6A4FE21FECB16F00285143 /* LaunchScreen.storyboard */,
+				2E6A4FE51FECB16F00285143 /* Info.plist */,
+				2E6A4FE61FECB16F00285143 /* main.m */,
+			);
+			path = HSVideoUDP;
+			sourceTree = "<group>";
+		};
+		2E6A4FEF1FECB16F00285143 /* HSVideoUDPTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E6A4FF01FECB16F00285143 /* HSVideoUDPTests.m */,
+				2E6A4FF21FECB16F00285143 /* Info.plist */,
+			);
+			path = HSVideoUDPTests;
+			sourceTree = "<group>";
+		};
+		2E6A4FFA1FECB16F00285143 /* HSVideoUDPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2E6A4FFB1FECB16F00285143 /* HSVideoUDPUITests.m */,
+				2E6A4FFD1FECB16F00285143 /* Info.plist */,
+			);
+			path = HSVideoUDPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E6A4FD31FECB16F00285143 /* HSVideoUDP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E6A50001FECB16F00285143 /* Build configuration list for PBXNativeTarget "HSVideoUDP" */;
+			buildPhases = (
+				2E6A4FD01FECB16F00285143 /* Sources */,
+				2E6A4FD11FECB16F00285143 /* Frameworks */,
+				2E6A4FD21FECB16F00285143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HSVideoUDP;
+			productName = HSVideoUDP;
+			productReference = 2E6A4FD41FECB16F00285143 /* HSVideoUDP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E6A4FEB1FECB16F00285143 /* HSVideoUDPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E6A50031FECB16F00285143 /* Build configuration list for PBXNativeTarget "HSVideoUDPTests" */;
+			buildPhases = (
+				2E6A4FE81FECB16F00285143 /* Sources */,
+				2E6A4FE91FECB16F00285143 /* Frameworks */,
+				2E6A4FEA1FECB16F00285143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E6A4FEE1FECB16F00285143 /* PBXTargetDependency */,
+			);
+			name = HSVideoUDPTests;
+			productName = HSVideoUDPTests;
+			productReference = 2E6A4FEC1FECB16F00285143 /* HSVideoUDPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2E6A4FF61FECB16F00285143 /* HSVideoUDPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E6A50061FECB16F00285143 /* Build configuration list for PBXNativeTarget "HSVideoUDPUITests" */;
+			buildPhases = (
+				2E6A4FF31FECB16F00285143 /* Sources */,
+				2E6A4FF41FECB16F00285143 /* Frameworks */,
+				2E6A4FF51FECB16F00285143 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E6A4FF91FECB16F00285143 /* PBXTargetDependency */,
+			);
+			name = HSVideoUDPUITests;
+			productName = HSVideoUDPUITests;
+			productReference = 2E6A4FF71FECB16F00285143 /* HSVideoUDPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E6A4FCC1FECB16F00285143 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MM;
+				TargetAttributes = {
+					2E6A4FD31FECB16F00285143 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2E6A4FEB1FECB16F00285143 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E6A4FD31FECB16F00285143;
+					};
+					2E6A4FF61FECB16F00285143 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E6A4FD31FECB16F00285143;
+					};
+				};
+			};
+			buildConfigurationList = 2E6A4FCF1FECB16F00285143 /* Build configuration list for PBXProject "HSVideoUDP" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E6A4FCB1FECB16F00285143;
+			productRefGroup = 2E6A4FD51FECB16F00285143 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E6A4FD31FECB16F00285143 /* HSVideoUDP */,
+				2E6A4FEB1FECB16F00285143 /* HSVideoUDPTests */,
+				2E6A4FF61FECB16F00285143 /* HSVideoUDPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E6A4FD21FECB16F00285143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6A4FE41FECB16F00285143 /* LaunchScreen.storyboard in Resources */,
+				2E6A4FE11FECB16F00285143 /* Assets.xcassets in Resources */,
+				2E6A4FDF1FECB16F00285143 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E6A4FEA1FECB16F00285143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E6A4FF51FECB16F00285143 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E6A4FD01FECB16F00285143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6A4FDC1FECB16F00285143 /* ViewController.m in Sources */,
+				2E6A4FE71FECB16F00285143 /* main.m in Sources */,
+				2E6A4FD91FECB16F00285143 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E6A4FE81FECB16F00285143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6A4FF11FECB16F00285143 /* HSVideoUDPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E6A4FF31FECB16F00285143 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6A4FFC1FECB16F00285143 /* HSVideoUDPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E6A4FEE1FECB16F00285143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E6A4FD31FECB16F00285143 /* HSVideoUDP */;
+			targetProxy = 2E6A4FED1FECB16F00285143 /* PBXContainerItemProxy */;
+		};
+		2E6A4FF91FECB16F00285143 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E6A4FD31FECB16F00285143 /* HSVideoUDP */;
+			targetProxy = 2E6A4FF81FECB16F00285143 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E6A4FDD1FECB16F00285143 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E6A4FDE1FECB16F00285143 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E6A4FE21FECB16F00285143 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E6A4FE31FECB16F00285143 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E6A4FFE1FECB16F00285143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E6A4FFF1FECB16F00285143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E6A50011FECB16F00285143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXT46HKVFK;
+				INFOPLIST_FILE = HSVideoUDP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuang.HSVideoUDP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E6A50021FECB16F00285143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXT46HKVFK;
+				INFOPLIST_FILE = HSVideoUDP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuang.HSVideoUDP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2E6A50041FECB16F00285143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXT46HKVFK;
+				INFOPLIST_FILE = HSVideoUDPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuang.HSVideoUDPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSVideoUDP.app/HSVideoUDP";
+			};
+			name = Debug;
+		};
+		2E6A50051FECB16F00285143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXT46HKVFK;
+				INFOPLIST_FILE = HSVideoUDPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuang.HSVideoUDPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HSVideoUDP.app/HSVideoUDP";
+			};
+			name = Release;
+		};
+		2E6A50071FECB16F00285143 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXT46HKVFK;
+				INFOPLIST_FILE = HSVideoUDPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuang.HSVideoUDPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HSVideoUDP;
+			};
+			name = Debug;
+		};
+		2E6A50081FECB16F00285143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZXT46HKVFK;
+				INFOPLIST_FILE = HSVideoUDPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuang.HSVideoUDPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HSVideoUDP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E6A4FCF1FECB16F00285143 /* Build configuration list for PBXProject "HSVideoUDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E6A4FFE1FECB16F00285143 /* Debug */,
+				2E6A4FFF1FECB16F00285143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E6A50001FECB16F00285143 /* Build configuration list for PBXNativeTarget "HSVideoUDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E6A50011FECB16F00285143 /* Debug */,
+				2E6A50021FECB16F00285143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E6A50031FECB16F00285143 /* Build configuration list for PBXNativeTarget "HSVideoUDPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E6A50041FECB16F00285143 /* Debug */,
+				2E6A50051FECB16F00285143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E6A50061FECB16F00285143 /* Build configuration list for PBXNativeTarget "HSVideoUDPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E6A50071FECB16F00285143 /* Debug */,
+				2E6A50081FECB16F00285143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E6A4FCC1FECB16F00285143 /* Project object */;
+}

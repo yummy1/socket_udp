@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E3852792017138200997A6E /* h264HardWare.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3852662017138200997A6E /* h264HardWare.m */; };
+		2E38527F2017138200997A6E /* VideoParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3852722017138200997A6E /* VideoParser.m */; };
+		2E3852842017165B00997A6E /* AAPLEAGLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3852832017165A00997A6E /* AAPLEAGLLayer.m */; };
+		2E385288201717A800997A6E /* MMUDPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E385287201717A800997A6E /* MMUDPClient.m */; };
 		2E6A4FD91FECB16F00285143 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6A4FD81FECB16F00285143 /* AppDelegate.m */; };
 		2E6A4FDC1FECB16F00285143 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6A4FDB1FECB16F00285143 /* ViewController.m */; };
 		2E6A4FDF1FECB16F00285143 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E6A4FDD1FECB16F00285143 /* Main.storyboard */; };
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E3852652017138200997A6E /* h264HardWare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = h264HardWare.h; sourceTree = "<group>"; };
+		2E3852662017138200997A6E /* h264HardWare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = h264HardWare.m; sourceTree = "<group>"; };
+		2E3852712017138200997A6E /* VideoParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoParser.h; sourceTree = "<group>"; };
+		2E3852722017138200997A6E /* VideoParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoParser.m; sourceTree = "<group>"; };
+		2E3852822017165A00997A6E /* AAPLEAGLLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLEAGLLayer.h; sourceTree = "<group>"; };
+		2E3852832017165A00997A6E /* AAPLEAGLLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLEAGLLayer.m; sourceTree = "<group>"; };
+		2E385286201717A800997A6E /* MMUDPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMUDPClient.h; sourceTree = "<group>"; };
+		2E385287201717A800997A6E /* MMUDPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMUDPClient.m; sourceTree = "<group>"; };
 		2E6A4FD41FECB16F00285143 /* HSVideoUDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSVideoUDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6A4FD71FECB16F00285143 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2E6A4FD81FECB16F00285143 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +90,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E0D181D1FED021B00CF93B2 /* VideoSource */ = {
+			isa = PBXGroup;
+			children = (
+				2E385285201717A800997A6E /* MMUDPClient */,
+				2E3852812017165A00997A6E /* GLPlayer */,
+				2E38525D2017138200997A6E /* VideoSDK */,
+			);
+			path = VideoSource;
+			sourceTree = "<group>";
+		};
+		2E38525D2017138200997A6E /* VideoSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2E3852652017138200997A6E /* h264HardWare.h */,
+				2E3852662017138200997A6E /* h264HardWare.m */,
+				2E3852712017138200997A6E /* VideoParser.h */,
+				2E3852722017138200997A6E /* VideoParser.m */,
+			);
+			path = VideoSDK;
+			sourceTree = "<group>";
+		};
+		2E3852812017165A00997A6E /* GLPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				2E3852822017165A00997A6E /* AAPLEAGLLayer.h */,
+				2E3852832017165A00997A6E /* AAPLEAGLLayer.m */,
+			);
+			path = GLPlayer;
+			sourceTree = "<group>";
+		};
+		2E385285201717A800997A6E /* MMUDPClient */ = {
+			isa = PBXGroup;
+			children = (
+				2E385286201717A800997A6E /* MMUDPClient.h */,
+				2E385287201717A800997A6E /* MMUDPClient.m */,
+			);
+			path = MMUDPClient;
+			sourceTree = "<group>";
+		};
 		2E6A4FCB1FECB16F00285143 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +152,7 @@
 		2E6A4FD61FECB16F00285143 /* HSVideoUDP */ = {
 			isa = PBXGroup;
 			children = (
+				2E0D181D1FED021B00CF93B2 /* VideoSource */,
 				2E6A4FD71FECB16F00285143 /* AppDelegate.h */,
 				2E6A4FD81FECB16F00285143 /* AppDelegate.m */,
 				2E6A4FDA1FECB16F00285143 /* ViewController.h */,
@@ -265,9 +317,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E3852842017165B00997A6E /* AAPLEAGLLayer.m in Sources */,
 				2E6A4FDC1FECB16F00285143 /* ViewController.m in Sources */,
 				2E6A4FE71FECB16F00285143 /* main.m in Sources */,
 				2E6A4FD91FECB16F00285143 /* AppDelegate.m in Sources */,
+				2E38527F2017138200997A6E /* VideoParser.m in Sources */,
+				2E385288201717A800997A6E /* MMUDPClient.m in Sources */,
+				2E3852792017138200997A6E /* h264HardWare.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,10 +487,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZXT46HKVFK;
+				DEVELOPMENT_TEAM = 999KXMZZU2;
 				INFOPLIST_FILE = HSVideoUDP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuang.HSVideoUDP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuang.hdFigurePass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -445,10 +502,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = ZXT46HKVFK;
+				DEVELOPMENT_TEAM = 999KXMZZU2;
 				INFOPLIST_FILE = HSVideoUDP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuang.HSVideoUDP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianchuang.hdFigurePass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

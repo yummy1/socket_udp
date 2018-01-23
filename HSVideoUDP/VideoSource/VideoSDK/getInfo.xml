@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Envelope xmlns:dn="http://www.onvif.org/ver10/network/wsdl" xmlns="http://www.w3.org/2003/05/soap-envelope">
+    <Header>
+        <wsa:MessageID xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">uuid:e594c021-a71c-40a1-a614-574df26af1f3</wsa:MessageID>
+        <wsa:To xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">urn:schemas-xmlsoap-org:ws:2005:04:discovery</wsa:To>
+        <wsa:Action xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">http://schemas.xmlsoap.org/ws/2005/04/discovery/Probe</wsa:Action>
+    </Header>
+    <Body>
+        <Probe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/ws/2005/04/discovery">
+            <Types>dn:NetworkVideoTransmitter</Types>
+            <Scopes />
+        </Probe>
+    </Body>
+</Envelope>
